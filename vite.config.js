@@ -5,4 +5,8 @@ export default defineConfig({
   server: {
     port: 3000, // Altere a porta, se necessário
   },
+  build: {
+    outDir: 'dist', // Diretório de saída
+  },
 })
+
